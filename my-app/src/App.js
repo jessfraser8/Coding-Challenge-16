@@ -7,11 +7,14 @@ import './App.css';
 import React from 'react';
 // Import Gallery.
 import Gallery from './Gallery.js';
+// Import Header from Gallery.js.
+import { Header } from './Gallery.js'
 
 // Create App to make webpage.
 function App() {
   return (
     <div className='App'>
+      <Header/>
       <Gallery employees={employees}/>
     </div>
   );

@@ -21,3 +21,11 @@ function Gallery({employees}) {
   
   export default Gallery;
   
+// Create header component and export it.
+export function Header() {
+    return (
+        <div>
+            <h1>Meet the Team</h1>
+        </div>
+    );
+  }
